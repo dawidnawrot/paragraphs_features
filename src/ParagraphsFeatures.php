@@ -110,6 +110,7 @@ class ParagraphsFeatures {
     ];
 
     return $elements;
+    
   }
 
 }
