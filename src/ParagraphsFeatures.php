@@ -72,7 +72,7 @@ class ParagraphsFeatures {
    */
   public static function getThirdPartyForm(WidgetInterface $plugin, $field_name) {
     $elements = [];
-
+    
     $elements['delete_confirmation'] = [
       '#type' => 'checkbox',
       '#title' => t('Enable confirmation on paragraphs remove'),
@@ -110,7 +110,6 @@ class ParagraphsFeatures {
     ];
 
     return $elements;
-    
   }
 
 }

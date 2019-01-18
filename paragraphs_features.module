@@ -31,7 +31,7 @@ function paragraphs_features_field_widget_multivalue_form_alter(array &$elements
  */
 function paragraphs_features_field_widget_third_party_settings_form(WidgetInterface $plugin, FieldDefinitionInterface $field_definition, $form_mode, $form, FormStateInterface $form_state) {
   $elements = [];
-
+  
   if ($plugin instanceof ParagraphsWidget) {
     $elements = ParagraphsFeatures::getThirdPartyForm($plugin, $field_definition->getName());
   }
